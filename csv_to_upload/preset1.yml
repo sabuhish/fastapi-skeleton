@@ -1,0 +1,5 @@
+id: first_preset
+name: First Preset
+description: "Init DB with minimal data"
+files:
+  test: csv/preset_a/query.csv

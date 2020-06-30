@@ -1,0 +1,30 @@
+version: '3.7'
+
+
+services:
+  app:
+    container_name: FastApi
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: "always"
+    env_file: .env.prod
+    ports:
+      - "8080:80"
+  depends_on:
+    - postgres
+
+
+  postgres:
+    container_name:  postgres-db
+    image:  postgres:9.6.6
+    restart: "always"
+    ports:
+      - 5432:5432 
+    volumes:
+      - ./pgdb:/var/lib/postgresql/data
+
+    env_file: .env.prod
+    environment:
+      - LC_ALL=C.UTF-8
+
