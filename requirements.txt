@@ -44,7 +44,7 @@ pyppeteer==0.2.2
 pyquery==1.4.1
 python-dateutil==2.8.1
 python-editor==1.0.4
-PyYAML==5.3.1
+PyYAML==5.4
 requests==2.24.0
 requests-html==0.10.0
 rfc3986==1.4.0
