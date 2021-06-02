@@ -64,7 +64,7 @@ starlette==0.13.4
 stevedore==2.0.1
 tqdm==4.47.0
 ujson==3.0.0
-urllib3==1.25.9
+urllib3==1.26.5
 uvicorn==0.11.3
 uvloop==0.14.0
 w3lib==1.22.0
