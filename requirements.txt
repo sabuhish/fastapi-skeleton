@@ -12,7 +12,7 @@ click==7.1.2
 cssselect==1.1.0
 expiring-dict==1.1.0
 fake-useragent==0.1.11
-fastapi==0.58.1
+fastapi==0.65.2
 gino==0.8.5
 gino-admin==0.0.12
 gino-sanic==0.1.0
