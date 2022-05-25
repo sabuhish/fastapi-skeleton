@@ -39,7 +39,7 @@ pkg-resources==0.0.0
 psycopg2==2.8.5
 pydantic==1.5.1
 pyee==7.0.2
-PyJWT==1.7.1
+PyJWT==2.4.0
 pyppeteer==0.2.2
 pyquery==1.4.1
 python-dateutil==2.8.1
